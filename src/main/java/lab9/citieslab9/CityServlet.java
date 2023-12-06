@@ -1,5 +1,6 @@
 package lab9.citieslab9;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -10,7 +11,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-@WebServlet("/HelloCityServlet")
+@WebServlet(
+        name = "city",
+        description = "Example Servlet Using Annotations",
+        urlPatterns = {"/city"}
+)
 public class CityServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -21,13 +26,8 @@ public class CityServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-        PrintWriter writer = response.getWriter();
-        try {
-            writer.println("<h2>Привет CityServlet</h2>");
-        } finally {
-            writer.close();
-        }
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/city.jsp");
+        requestDispatcher.forward(request,response);
     }
 
     protected void doPost(HttpServletRequest request,

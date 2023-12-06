@@ -3,12 +3,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <meta charset="UTF-8">
   <!-- Настройка viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <title>Управление городами</title>
+  <title>Управление персоналом</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -18,13 +19,19 @@
     <div class="list-group text-center py-3 px-3">
       <h2>Функции системы</h2>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item list-group-itemprimary"><a href="#">Города</a>
-        <li class="list-group-item list-group-iteminfo"><a href="#">Парки</a>
+        <li class="list-group-item list-group-itemprimary">
+          <a href="${pageContext.request.contextPath}/city">Города</a>
+        <li class="list-group-item list-group-iteminfo">
+          <a href="${pageContext.request.contextPath}/park">Парки</a>
       </ul>
     </div>
     <br><br>
   </div>
   <jsp:include page="/views/footer.jsp" />
 </div>
+<!-- jQuery -->
+<script src="js/jquery-3.6.4.js"></script>
+<!-- Bootstrap JS + Popper JS -->
+<script defer src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

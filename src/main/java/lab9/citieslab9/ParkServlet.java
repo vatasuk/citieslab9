@@ -1,4 +1,5 @@
 package lab9.citieslab9;
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -8,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 
-@WebServlet("/HelloParkServlet")
+@WebServlet("/park")
 public class ParkServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -18,13 +19,8 @@ public class ParkServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request,
                          HttpServletResponse response) throws ServletException, IOException {
-        response.setContentType("text/html");
-        PrintWriter writer = response.getWriter();
-        try {
-            writer.println("<h2>Привет ParkServlet</h2>");
-        } finally {
-            writer.close();
-        }
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("/park.jsp");
+        requestDispatcher.forward(request,response);
     }
 
     protected void doPost(HttpServletRequest request,
