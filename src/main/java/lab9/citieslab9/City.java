@@ -1,7 +1,17 @@
 package lab9.citieslab9;
+
+import java.sql.ResultSet;
+
 public class City {
     private int pop, id;
     private String name;
+
+    public City() {
+
+    }
+
+
+
     @Override
     public String toString() {
         return "City{" +

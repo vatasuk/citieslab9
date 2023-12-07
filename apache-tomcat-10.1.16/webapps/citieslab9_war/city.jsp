@@ -2,14 +2,7 @@
          pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <%@ page import="lab9.citieslab9.City"%>
-<%
-    City c1 = new City(1, "Ростов-на-Дону", 1000000);
-    City c2 = new City(2, "Азов", 100000);
-    City c3 = new City(3, "Москва", 4000000);
-    City[] cities = new City[]{c1,c2,c3};
-    int length = cities.length;
-    pageContext.setAttribute("cities", cities);
-%>
+
 <!DOCTYPE html>
 <html>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
@@ -39,7 +32,8 @@
                     <thead>
                     <th scope="col">Код</th>
                     <th scope="col">Город</th>
-                    <th scope="col"> Редактировать</th>
+                    <th scope="col">Население</th>
+                    <th scope="col">Редактировать</th>
                     <th scope="col">Удалить</th>
                     </thead>
                     <tbody>
@@ -63,12 +57,22 @@
             </div>
             <div class="col-4 border px-4">
                 <form method="POST" action="">
-                    <h3>Новая должность</h3>
-                    <div class="mb-3">
-                        <br> <label for="inputRole" class="col-sm-3 col-form-label">Должность </label>
-                        <div class="col-sm-6">
-                           <input type="text" name="inputRole"
-                            class="form-control" id="personRole" />
+                    <h3>Новый город</h3>
+                    <div class="mb-3 row">
+                        <label for="cityname"
+                               class="col-sm-3 col-form-label">Название</label>
+                        <div class="col-sm-7">
+                            <input type="text" class="form-control"
+                                   id="staticCityname"name="cityname" />
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="pop"
+                               class="col-sm-3 col-form-label">Население</label>
+                        <div class="col-sm-7">
+                            <input type="text"
+                                   class="form-control" id="staticpop"
+                                   name="pop" />
                         </div>
                     </div>
                     <p>
