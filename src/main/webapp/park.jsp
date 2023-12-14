@@ -3,19 +3,7 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core"%>
 <%@ page import="lab9.citieslab9.City"%>
 <%@ page import="lab9.citieslab9.Park"%>
-<%
-  City c1 = new City(1, "Ростов-на-Дону", 1000000);
-  City c2 = new City(2, "Азов", 100000);
-  City c3 = new City(3, "Москва", 4000000);
-  City[] cities = new City[]{c1,c2,c3};
-  pageContext.setAttribute("cities", cities);
-  Park p1 = new Park(1, 3,500,"Да", "1","Битцевский", "11.06.2000");
-  Park p2 = new Park(2, 3,1500,"Нет", "2","МОсковский", "11.06.2002");
-  Park p3 = new Park(3, 2,600,"Да", "3","Азовский", "13.09.2000");
-  Park p4 = new Park(4, 1,300,"Да", "1","РОстовский", "23.03.2004");
-  Park[] parks = new Park[]{p1, p2, p3, p4};
-  pageContext.setAttribute("parks", parks);
-%>
+
 <!DOCTYPE html>
 <html>
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">

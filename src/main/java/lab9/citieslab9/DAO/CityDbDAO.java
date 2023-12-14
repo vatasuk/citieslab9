@@ -85,7 +85,8 @@ public class CityDbDAO {
                      con.prepareStatement(select_all_city);
              ResultSet rs = pst.executeQuery()) {
             while (rs.next()) {
-                cities.add(new City(rs.getInt(1),rs.getString(2),rs.getInt(3)));
+                //cities.add(new City(rs.getInt(1),rs.getString(2),rs.getInt(3)));
+                cities.add(fillCity(rs));
             }
         } catch (Exception e) {
             throw new Exception(e);

@@ -2,6 +2,11 @@ package lab9.citieslab9;
 public class Park {
     int id, cityID, S;
     String name,date,water,type;
+    private City city;
+    public Park() {
+
+    }
+
     @Override
     public String toString() {
         return "Park{" +
@@ -13,6 +18,13 @@ public class Park {
                 ", date='" + date + '\'' +
                 ", water=" + water +
                 '}';
+    }
+
+    public String getCity() {
+        return city.getName();
+    }
+    public void setCity(City city) {
+        this.city = city;
     }
     public int getId() {
         return id;

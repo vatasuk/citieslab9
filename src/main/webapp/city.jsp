@@ -42,14 +42,18 @@
                             <td>${city.getId()}</td>
                             <td>${city.getName()}</td>
                             <td>${city.getPop()}</td>
-                            <td width="20"><a href="#" role="button"
-                                              class="btn btn-outline-primary">
+                            <td width="20"><a
+                                    href='<c:url value="/editcity?id=${city.getId()}" />'
+                                    role="button" class="btn btn-outline-primary">
                                 <img alt="Редактировать"
-                                     ></a></td>
-                            <td width="20"><a href="#" role="button"
-                                              class="btn btn-outline-primary">
-                                <img alt="Удалить"
-                                     ></a></td>
+                                     src="images/icon-edit.png"></a></td>
+
+                            <td width="20"><a
+                                    href="<c:url value="/deletecity?id=${city.getId()}" />"
+                                    role="button" class="btn btn-outline-primary">
+                                <img alt="Удалить" src="images/icon-delete.png"
+                                     onclick="return confirm('Удалить должность с кодом:'+
+                                         ${city.getId()}+'?')"></a></td>
                         </tr>
                     </c:forEach>
                     </tbody>
@@ -59,20 +63,20 @@
                 <form method="POST" action="">
                     <h3>Новый город</h3>
                     <div class="mb-3 row">
-                        <label for="cityname"
+                        <label for="inputName"
                                class="col-sm-3 col-form-label">Название</label>
                         <div class="col-sm-7">
                             <input type="text" class="form-control"
-                                   id="staticCityname"name="cityname" />
+                                   id="inputName"name="inputName" />
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="pop"
+                        <label for="inputPop"
                                class="col-sm-3 col-form-label">Население</label>
                         <div class="col-sm-7">
                             <input type="text"
-                                   class="form-control" id="staticpop"
-                                   name="pop" />
+                                   class="form-control" id="inputPop"
+                                   name="inputPop" />
                         </div>
                     </div>
                     <p>

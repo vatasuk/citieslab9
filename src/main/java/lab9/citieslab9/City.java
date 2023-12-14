@@ -43,4 +43,8 @@ public class City {
         this.id = id;
         this.name = name;
     }
+    public City( String name, int pop) {
+        this.pop = pop;
+        this.name = name;
+    }
 }

@@ -10,31 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd454322-d31a-4bc1-89f4-ae03ccbfed90" name="Changes" comment="4">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/CityDbDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/ConnectionBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/ConnectionProperty.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/DbConnectionBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/RepositoryDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/lib/checker-qual-3.31.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/lib/postgresql-42.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/CityDbDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/ConnectionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/ConnectionProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/DbConnectionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/RepositoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/ParkDbDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DeleteCityServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/EditCityServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/editcity.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/ParkDbDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DeleteCityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/EditCityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/editcity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f6d920b-96c7-4b42-abee-4503b66c86d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5f6d920b-96c7-4b42-abee-4503b66c86d8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5f6d920b-96c7-4b42-abee-4503b66c86d8/storage_v2/_src_/database/cities.Sbvtrg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5f6d920b-96c7-4b42-abee-4503b66c86d8/storage_v2/_src_/database/cities.Sbvtrg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/City.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/CityServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/CityServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/CityDbDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/DAO/CityDbDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/Park.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/Park.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/ParkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/WEB-INF/classes/lab9/citieslab9/ParkServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/city.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/city.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/park.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/apache-tomcat-10.1.16/webapps/citieslab9_war/park.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/CityServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/CityServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/CityDbDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/DAO/CityDbDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/ParkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lab9/citieslab9/ParkServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/city.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/city.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/park.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/park.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -74,29 +75,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Рабочий стол/website",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Рабочий стол/website&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Рабочий стол\citieslab9\src\main\resources" />
@@ -212,7 +214,10 @@
       <workItem from="1701282332085" duration="996000" />
       <workItem from="1701792084005" duration="5539000" />
       <workItem from="1701883990621" duration="3908000" />
-      <workItem from="1701971917066" duration="8260000" />
+      <workItem from="1701971917066" duration="8600000" />
+      <workItem from="1702221163163" duration="31000" />
+      <workItem from="1702229997371" duration="4265000" />
+      <workItem from="1702480604611" duration="4199000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -246,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701889209423</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4">
+      <option name="closed" value="true" />
+      <created>1701981392257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701981392257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

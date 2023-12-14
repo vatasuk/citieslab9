@@ -44,10 +44,19 @@ public class CityServlet extends HttpServlet {
         }
     }
 
-    public void doPost(HttpServletRequest request,
-                          HttpServletResponse response)
-            throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        CityDbDAO dao = new CityDbDAO();
+        String name = request.getParameter("inputName");
+        int pop = Integer.parseInt(request.getParameter("inputPop"));
+        City newCity = new City(name,pop);
+        try {
+            Integer index = dao.insert(newCity);
+            System.out.println("Adding result: " + index );
+        } catch (Exception e) {
 
+            e.printStackTrace();
+        }
         doGet(request, response);
     }
+
 }
